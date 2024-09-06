@@ -11,10 +11,6 @@ namespace OddEvenNumberApp
 {
     internal class Program
     {
-        static bool IsOdd(int Number)
-        {
-            return Number % 2 == 1 ? true : false;
-        }
 
         static byte[] Encrypt(string Password, byte[] Key, byte[] iv)
         {
@@ -101,19 +97,9 @@ namespace OddEvenNumberApp
 
 
 
-            //  int[] number = { 1, 2, 3, 4, 5, 6 };
-
-            //  Console.WriteLine(number[0]);
-            //  Console.WriteLine(IsEven(number[2]));
-            //  Console.WriteLine("Hello!!!!!!");
-
-            //string s=  RegionInfo.CurrentRegion.ISOCurrencySymbol;
-            //  Console.WriteLine(s);
+          
             Console.ReadLine();
         }
-        static bool IsEven(int Number)
-        {
-            return Number % 2 == 0 ? true : false;
-        }
+       
     }
 }
